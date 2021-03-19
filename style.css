@@ -1,0 +1,26 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.753);
+    background: rgba(128, 128, 128, 0.151);
+}
+
+body div:first-child {
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+ol > li > ul > li:first-child {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+}
